@@ -1,0 +1,158 @@
+:root {
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+html {
+    background: url(./background/Background2.jpg) no-repeat center fixed;
+    background-size: cover;
+    size: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.Sign-up {
+    padding-right: 8.375rem;
+}
+
+.Sign-up ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Sign-up a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 75%;
+    top: 7%;
+    cursor: pointer;
+    border-radius: 2rem;
+    border-style: none;
+    outline: 0px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+h1 {
+    color: white;
+    padding-left: 8.375rem;
+    font-size: 3.875rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding-left: 250px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    padding-left: 0;
+    padding-right: 300px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-about-us > p {
+    font-size: 25px;
+    text-align: center;
+    width: 1300px;
+    padding-left: 0;
+    word-wrap: break-word;
+    white-space: normal;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+p {
+    color: white;
+    padding-left: 8.375rem;
+    font-size: 3.875rem;
+    padding-top: 16.125;
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+footer {
+    padding-top: 400px;
+}
+
+.page-numbers {
+    padding-left: .375rem;
+}
+
+.page-number {
+    list-style: none;
+    margin: -50px;
+    display: inline-block;
+}
+
+.number-of-pages {
+    opacity: 0.6;
+    padding-left: 0px;
+    margin: -70px 45px;
+}
+
+.media {
+    position: absolute;
+    left: 80%;
+    transform: translate(-53%, -50%);
+}
+
+li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+li i {
+    color: white;
+}
+
+li i:hover {
+    text-decoration: none;
+    color: grey;
+    transition:  0.5s;
+}
+
+li i:visited {
+    text-decoration: none;
+    color: white;
+}

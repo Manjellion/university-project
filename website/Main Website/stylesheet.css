@@ -1,0 +1,151 @@
+/* We will use the pseudo class root too declare global CSS variables*/
+:root {
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+/* Setting background-szie to fit screen */
+html {
+    background: url(./pictures/Background1.jpg) no-repeat center fixed;
+    background-size: cover;
+    size: 100%;
+}
+
+/* Header section, we gave it display flex property for a spacing between the elements */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* Corresponds with header, make the sign up button correspond too the right hand side like in design*/
+.Sign-up {
+    padding-right: 8.375rem;
+}
+
+/* Child element Unordered lists are display as flext and have no style, removes bulletpoints and fills avaliable white space*/
+.Sign-up ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* child anchor element */
+.Sign-up a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Button size fixed with padding, button is black and Sign up text is white, position is absolute as this is a single page and should follow the users movement, its flexbox is positions using left and right, and the cursor attribute was set too pointer so user can indicate its accessible.*/
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 75%;
+    top: 7%;
+    cursor: pointer;
+    border-radius: 2rem;
+    border-style: none;
+    outline: 0px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Used Pseudo-class for button for a transtion effect, web animation */
+.button:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+/* Our heading is white and Montserrat font for consistency, the padding and font is too match our design */
+h1 {
+    color: white;
+    padding-left: 8.375rem;
+    font-size: 3.875rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Our Logo is white and Montserrat font for consistency, the padding and font is too match our design
+Text is aligned at the center of the website and text shadow added to match our design 
+*/
+h2 {
+    color: white;
+    padding-top: 9.375rem;
+    font-size: 7.9375rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 10px #001f3f;
+}
+
+/* Color, font size, font style,*/
+p{
+    color: white;
+    padding-left: 8.375rem;
+    font-size: 3.875rem;
+    padding-top: 16.125rem;
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+/* Make our page number at the bottom left of the page with the number of pages has less opacity then the page number too match our design */
+.page-numbers {
+    padding-left: .375rem;
+}
+
+.page-number{
+    list-style: none;
+    margin: -50px;
+    display: inline-block;
+}
+
+.number-of-pages {
+    opacity: 0.6;
+    padding-left: 0px;
+    margin: -70px 45px;
+}
+
+/* Our hyperlinks too social media */
+.media {
+    position: absolute;
+    left: 80%;
+    transform: translate(-53%, -50%);
+}
+
+
+li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+}
+
+li i{
+    color: white;
+}
+
+li i:hover {
+    text-decoration: none;
+    color: grey;
+    transition: .5s;
+}
+
+li i:visited {
+    text-decoration: none;
+    color: white;
+}
+
